@@ -18,4 +18,12 @@ public abstract class RandomNumberFactory {
     public static Integer createInteger(Integer min, Integer max) {
         return createFloat(min, max).intValue();
     }
+
+    public static Integer createRandom3Digits() {
+        return random.nextInt(1000);
+    }
+
+    public static Integer createRandom4Digits() {
+        return random.nextInt(10000);
+    }
 }

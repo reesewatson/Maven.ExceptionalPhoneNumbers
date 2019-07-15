@@ -79,7 +79,7 @@ public class PhoneNumberFactoryTest {
 
     @Test
     public void testCreateRandomPhoneNumber() {
-        for (int i = 0; i < 999; i++) {
+        for (int i = 100; i < 999; i++) {
             // : Given
             // : When
             PhoneNumber phoneNumber = PhoneNumberFactory.createRandomPhoneNumber();
